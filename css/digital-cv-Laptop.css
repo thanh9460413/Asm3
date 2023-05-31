@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  .container {
+    margin: 3em auto;
+    padding: 1em;
+    width: 70%;
+    display: grid;
+    background-color: blue;
+    gap: 1em;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .bg{
+    background-color: #f1f3f5;
+    display: block;
+    width: 100%;
+  }
+  .bg:nth-child(1){
+    grid-row: 1;
+  }
+  .bg:nth-child(2){
+    grid-row: 1;
+  }
+  .bg:nth-child(3){
+    grid-row: 2;
+  }
+  .bg:nth-child(4){
+    grid-column: 2;
+  }
+  .bg:nth-child(5){
+    grid-column: 3;
+    grid-row: 1/span 2;
+  }
+  .bg h2{
+    padding: 10px 10px 0px 10px;
+    color: blue;
+  }
+  /* Goal */
+  
+  .bg .itemGoal{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+  }
+  .bg .itemGoal img{
+    margin: 10px;
+  }
+  .bg .itemGoal:nth-child(1){
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+  }
+  .bg .itemGoal:nth-child(2){
+    border-bottom: 1px solid darkgray;
+  }
+  .bg .itemGoal:nth-child(3){
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 100px;
+  }
+  /* Team */
+  .bg .itemTeam{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+  }
+  .bg .itemTeam img{
+    margin: 10px;
+  }
+  .bg .itemTeam:nth-child(1){
+    border-top: 1px solid darkgray;
+  }
+  /* Timeline */
+  .bg .itemTimeline{
+    padding-top:10px;
+    margin: 10px;
+    display: flex;
+  }
+
+  .bg .itemTimeline:nth-child(1){
+    border-top: 1px solid darkgray;
+  }
+  .count{
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: darkviolet;
+    border: 1px solid black;
+  }
+  .count1{
+    color: #f1f3f5;
+    font-size: 18px;
+    padding-top: 4px ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .projstart{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .projstart div:nth-child(2){
+    border-bottom: 3px dotted aqua;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  /* Scopes */
+  .Scopes{
+    display: flex;
+  }
+  .bg .itemScopes b{
+    font-size: 20px;
+  }
+  .bg .itemScopes div{
+    padding-bottom: 10px;
+  }
+  .bg .itemScopes:nth-child(1){
+    width: 50%;
+  }
+  .bg .itemScopes:nth-child(2){
+    margin-bottom: 100px;
+    width: 50%;
+  }
+  /* Primary */
+  .bg .itemPrimary{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+  }
+  .bg .itemPrimary img{
+    margin: 10px;
+  }
+  .bg .itemPrimary:nth-child(1){
+    border-top: 1px solid darkgray;
+  }
+  .bg .itemPrimary:nth-child(2){
+    margin-bottom: 100px;
+  }

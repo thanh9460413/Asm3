@@ -1,0 +1,156 @@
+@media screen and (min-width: 600px) and (max-width: 1500px) {
+  
+    body {
+      line-height: 1;
+    }
+    .font-s{
+      font-size: 12px;
+    }
+    header {
+      height: 60vh;
+    }
+  
+    .banner {
+      width: 100%;
+    }
+    /* Banner */
+    .banner h1 {
+      font-size: 40px;
+    }
+    /* Navbar */
+    .nav-link1{
+        display: none;
+    }
+    /* Kinh nghiệm - Học vấn - Hoạt động - Sở thích - Ngôn ngữ - Kỹ năng */
+    .job-info{
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr auto;
+      height: fit-content;
+      padding: auto;
+      gap: 30px;
+    }
+    .ic {
+      border: 1px solid #199cdb;
+      border-radius: 50%;
+      background-color: #fff;
+      color: #199cdb;
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+    }
+    .ic-megaphone,
+    .ic-strategy,
+    .ic-hotairballoon,
+    .ic-basket{
+      font-size: 18px;
+      padding-top: 10px;
+    }
+     /* Chứng chỉ - Phần thưởng */
+  #certificate {
+    background-color: #f1f3f5;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    display: block;
+    padding-bottom: 50px;
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+  }
+  .certificate{
+    width: 100%;
+  }
+  .section-title1{
+    padding: 50px 0 50px 0;
+    font-weight: 100;
+    font-size: 18px;
+  }
+  .ccgt {
+    display: grid;
+    width: 93%;
+
+
+  }
+  
+  .item-ccgt {
+    font-size: 10px;
+    
+    display: block;
+  }
+  
+  .ttccgt{
+    display: block;
+  }
+  .ttccgt div{
+    padding-top: 10px;
+  }
+  .img-ccgt{
+    width: 100%;
+    height: 175px;
+  }
+  .item-ccgt:nth-child(1) {
+
+    padding-right: 10%;
+  }
+  .item-ccgt:nth-child(2) {
+    border-left: 1px solid coral;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .item-ccgt:nth-child(3) {
+    padding-right: 10%;
+  }
+  .img-ccgt1{
+    border-left: 1px solid coral; 
+    font-size: 10px;
+    width: 350px;
+    padding-right: 10%;
+    height: 175px;
+  }
+  /* Dự án */
+  #project{
+    width: 100%;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    display: block;
+    padding-bottom: 50px;
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+  }
+  .pro-year{
+    border:1px solid #199cdb;
+    border-radius: 15px;
+    margin: 10px 0px 10px 30px;
+    background-color: #199cdb;
+    color: white;
+    padding: 2px 20px 2px 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .ic-funix{
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+
+  }
+  .da-FuDev{
+    width: 32%;
+    display: flex;
+  }
+  .da-FuDev1{
+    display: block;
+    justify-content: center;
+  }
+  }
+  

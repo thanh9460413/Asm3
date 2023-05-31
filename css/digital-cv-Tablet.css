@@ -1,0 +1,70 @@
+@media screen and (min-width: 600px) and (max-width: 1500px) {
+    .container {
+        margin: 3em auto;
+        padding: 1em;
+        width: 100%;
+        display: block;
+        background-color: blue;
+        gap: 0;
+      }
+
+      .bg .itemGoal:nth-child(3){
+        border-bottom: 1px solid darkgray;
+        margin-bottom: 10px;
+      }
+      /* Goal */
+      .bg .itemGoal{
+        padding: 10px;
+        margin: 10px;
+        display: block;
+        
+      }
+      .imgItem{
+        text-align: center;
+      }
+      .bg .itemGoal img{
+        margin: 10px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      .bg .itemGoal:nth-child(3){
+        border-bottom: 1px solid darkgray;
+        margin-bottom: 10px;
+        
+      }
+      /* Team */
+    .bg .itemTeam{
+        padding: 10px;
+        margin: 10px;
+        display: block;
+    }
+     /* Scopes */
+        .Scopes{
+            display: block;
+        }
+       /* Primary */
+      .bg .itemPrimary{
+        display: block;
+      }
+       /* Timeline */
+      .bg .itemTimeline{
+        padding-top:10px;
+        margin: 10px;
+        display: block;
+      }
+      .bg .itemPrimary:nth-child(2){
+        margin-bottom: 10px;
+        padding-bottom: 100px;
+      }
+      .count{
+        padding: 5px 10px 5px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: darkviolet;
+        border: 1px solid black;
+      }
+}
